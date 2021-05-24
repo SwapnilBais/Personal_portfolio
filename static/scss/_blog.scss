@@ -1,16 +1,16 @@
 
 /* Latest Blog Area css
 ============================================================================================ */
-.latest_blog_area{
+// .latest_blog_area{
     
-}
-.latest_blog_inner{
+// }
+// .latest_blog_inner{
     
-}
+// }
 .l_blog_item{
-    .l_blog_img{
+    // .l_blog_img{
         
-    }
+    // }
     .l_blog_text{
         .date{
             margin-top: 24px;
@@ -43,8 +43,8 @@
 
 /* Causes Area css
 ============================================================================================ */
-.causes_area{
-}
+// .causes_area{
+// }
 .causes_slider{
     .owl-dots{
         text-align: center;
@@ -160,7 +160,7 @@
             padding: 10px 0px 13px;
             transition: all 0.3s linear;
             &:hover{
-                // color: $pfont;
+                 color: $pfont;
             }
         }
     }
@@ -270,11 +270,11 @@
 
 /*============ blog_left_sidebar css ==============*/
 .blog_area{
-    // background: $lightGray;
+     background: $lightGray;
 }
-.blog_left_sidebar{
+// .blog_left_sidebar{
     
-}
+// }
 .blog_item{
     margin-bottom: 50px;
 }

@@ -9,12 +9,14 @@ def blog_page(request):
     }
     return render(request, 'blog/post.html', context)
 
+
 def blog_details(request, post_id):
     post = Post.objects.get(id=post_id)
     context = {
         'post': post
     }
     return render(request, 'blog/single-blog.html', context)
+
 
 def search_post(request):
     if request.method == 'POST':
@@ -23,6 +25,7 @@ def search_post(request):
         context = {'post': post}
         return render(request, 'blog/search.html', context)
     return render(request, 'blog/search.html')
+
 
 def blog_category_page(request, id):
     # ctg_id = PostCategory.objects.get(id=id)

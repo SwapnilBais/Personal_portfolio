@@ -85,6 +85,8 @@
     @include gradient(90deg, $primary-color 0%, $primary-color2 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    background-clip: text;
+//   -webkit-text-fill-color: transparent;
 }
 
 /* End Gradient Area css
